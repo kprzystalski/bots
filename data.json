@@ -1,0 +1,196 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [
+      {
+        "value": "candidate",
+        "synonyms": ["developer", "data scientist"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "right, thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "add candidate",
+        "intent": "candidate_add",
+        "entities": []
+      }, 
+      {
+        "text": "add candidate",
+        "intent": "candidate_add",
+        "entities": [
+            {
+      "start": 5,
+      "end": 13,
+      "value": "candidate",
+      "entity": "candidate"
+        }
+        ]
+      },         
+      {
+        "text": "adding candidate",
+        "intent": "candidate_add",
+        "entities": [
+            {
+              "start": 8,
+      "end": 16,
+      "value": "candidate",
+      "entity": "candidate"
+        }        
+        ]
+      },
+      {
+        "text": "please add candidate",
+        "intent": "candidate_add",
+        "entities": []
+      },              
+      {
+        "text": "please add new candidate",
+        "intent": "candidate_add",
+        "entities": []
+      },           
+      {
+        "text": "we have new prescreening upcoming",
+        "intent": "candidate_add",
+        "entities": []
+      }, 
+      {
+        "text": "we have a new candidate for prescreening",
+        "intent": "candidate_add",
+        "entities": []
+      },         
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great choice",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sounds really good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      }
+    ]
+  }
+}
